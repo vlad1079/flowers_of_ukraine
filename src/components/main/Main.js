@@ -1,6 +1,39 @@
 import discount from '../../images/main/discount_present/discout.jpg';
 import present1 from '../../images/main/discount_present/present1.jpg';
 import present2 from '../../images/main/discount_present/present2.jpg';
+import present6 from '../../images/main/discount_present/present6.png';
+import present4 from '../../images/main/discount_present/present4.jpg';
+import present5 from '../../images/main/discount_present/present5.png';
+import photo_report1 from '../../images/main/photo_report/photo_report_1n.svg';
+import photo_report2 from '../../images/main/photo_report/photo_report_2na.svg';
+import photo_report3 from '../../images/main/photo_report/photo_report_3n.svg';
+import arrowL from '../../images/main/stock/arrowL.svg';
+import arrowR from '../../images/main/stock/arrowR.svg';
+import health from '../../images/main/stock/health.svg';
+import red_rose from '../../images/main/stock/red_rose.jpg';
+import raiting from '../../images/main/stock/raiting.svg';
+import pink_rose from '../../images/main/stock/pink_rose.jpg';
+import beeng_love from '../../images/main/stock/beeng_love.jpg';
+import all_for_you from '../../images/main/stock/all_for_you.jpg';
+import reverie from '../../images/main/sesonal/reverie.jpg';
+import sunny_mood from '../../images/main/sesonal/sunny_mood.jpg';
+import flower_bed from '../../images/main/sesonal/flower_bed.jpg';
+import basket_thumbelina from '../../images/main/sesonal/basket_thumbelina.jpg';
+import napoleon from '../../images/main/gift/card/napoleon.jpg';
+import kievskiy from '../../images/main/gift/card/kievskiy.jpg';
+import levantiner from '../../images/main/gift/card/levantiner.jpg';
+import born_day from '../../images/main/gift/card/born_day.jpg';
+import arrowF from '../../images/main/forum/forum_arrow.svg';
+import forum1 from '../../images/main/forum/forum1.jpg';
+import forum2 from '../../images/main/forum/forum2.jpg';
+import forum3 from '../../images/main/forum/forum3.jpg';
+import map_logo from '../../images/main/map_contact/contact_logo.svg';
+import phoneM from '../../images/main/map_contact/phone.svg';
+import skypeM from '../../images/main/map_contact/skype.svg';
+import mallM from '../../images/main/map_contact/email.svg';
+import instM from '../../images/main/map_contact/inst.svg';
+import skypeC from '../../images/main/map_contact/skype2.svg';
+import facebookM from '../../images/main/map_contact/facebook.svg';
 
 const Main = () => {
     return (
@@ -26,14 +59,14 @@ const Main = () => {
                         <span>Подарки</span>
                     </div>
                     <div className="main_discount4">
-                        <picture className="main_discount5"><img src="images/main/discount_present/present6.png" alt="present"/>
+                        <picture className="main_discount5"><img src={present6} alt="present"/>
                         </picture>
                         <span>Подарочные корзины</span>
                     </div>
                     <div className="main_discount6">
-                        <picture className="main_discount7"><img src="images/main/discount_present/present4.jpg" alt="present"/>
+                <picture className="main_discount7"><img src={present4} alt="present"/>
                         </picture>
-                        <picture className="main_discount8"><img src="images/main/discount_present/present5.png" alt="present"/>
+                        <picture className="main_discount8"><img src={present5} alt="present"/>
                         </picture>
                         <span>Цветы в коробке</span>
                     </div>
@@ -41,20 +74,20 @@ const Main = () => {
                 <section className="main_photo_report">
                     <div className="main_photo_report_blocks">
                         <div>
-                            <img src="images/main/photo_report/photo_report_1n.svg" alt="photo report"/>
+                            <img src={photo_report1} alt="photo report"/>
                                 <h2>Фото доставок наших букетов</h2>
                                 <p>Безупречное качество обслуживания и доставка в любую точку города</p>
                         </div>
                         <div>
                             <picture>
-                                <img src="images/main/photo_report/photo_report_2na.svg" alt="video report"/>
+                                <img src={photo_report2} alt="video report"/>
                             </picture>
                             <h2>Видео отчеты клиентов</h2>
                             <p>Наши счастливые клиенты с букетами от Flowers-Ukraine</p>
                         </div>
                         <div>
                             <picture>
-                                <img src="images/main/photo_report/photo_report_3n.svg" alt="every gift"/>
+                                <img src={photo_report3} alt="every gift"/>
                             </picture>
                             <h2>Подарок каждому клиенту</h2>
                             <p>К каждому заказу мы прилогаем комплимент от компании
@@ -68,10 +101,10 @@ const Main = () => {
                         <h2>Акции</h2>
                         <div className="main_stock_arrow">
                             <picture>
-                                <img src="images/main/stock/arrowL.svg" alt="arrow"/>
+                                <img src={arrowL} alt="arrow"/>
                             </picture>
                             <picture>
-                                <img src="images/main/stock/arrowR.svg" alt="arrow"/>
+                                <img src={arrowR} alt="arrow"/>
                             </picture>
                         </div>
                     </div>
@@ -80,16 +113,16 @@ const Main = () => {
                             <div className="main_stock_card_top">
                                 <span>-19%</span>
                                 <picture>
-                                    <img src="images/main/stock/health.svg" alt="health"/>
+                                    <img src={health} alt="health"/>
                                 </picture>
                             </div>
                             <picture>
-                                <img src="images/main/stock/red_rose.png" alt="red_rose"/>
+                                <img src={red_rose} alt="red_rose"/>
                             </picture>
                             <span>top</span>
                             <div className="main_stock_card_raiting">
                                 <picture>
-                                    <img src="images/main/stock/raiting.svg" alt="raiting"/>
+                                    <img src={raiting} alt="raiting"/>
                                 </picture>
                             </div>
                             <div className="main_stock_card_med">
@@ -106,16 +139,16 @@ const Main = () => {
                             <div className="main_stock_card_top">
                                 <span>-10%</span>
                                 <picture>
-                                    <img src="images/main/stock/health.svg" alt="health"/>
+                                    <img src={health} alt="health"/>
                                 </picture>
                             </div>
                             <picture>
-                                <img src="images/main/stock/pink_rose.png" alt="pink rose"/>
+                                <img src={pink_rose} alt="pink rose"/>
                             </picture>
                             <span>top</span>
                             <div className="main_stock_card_raiting">
                                 <picture>
-                                    <img src="images/main/stock/raiting.svg" alt="raiting"/>
+                                    <img src={raiting} alt="raiting"/>
                                 </picture>
                             </div>
                             <div className="main_stock_card_med">
@@ -132,16 +165,16 @@ const Main = () => {
                             <div className="main_stock_card_top">
                                 <span>-19%</span>
                                 <picture>
-                                    <img src="images/main/stock/health.svg" alt="health"/>
+                                    <img src={health} alt="health"/>
                                 </picture>
                             </div>
                             <picture>
-                                <img src="images/main/stock/beeng_love.png" alt="love"/>
+                                <img src={beeng_love} alt="love"/>
                             </picture>
                             <span>top</span>
                             <div className="main_stock_card_raiting">
                                 <picture>
-                                    <img src="images/main/stock/raiting.svg" alt="raiting"/>
+                                    <img src={raiting} alt="raiting"/>
                                 </picture>
                             </div>
                             <div className="main_stock_card_med">
@@ -158,16 +191,16 @@ const Main = () => {
                             <div className="main_stock_card_top">
                                 <span>-19%</span>
                                 <picture>
-                                    <img src="images/main/stock/health.svg" alt="health"/>
+                                    <img src={health} alt="health"/>
                                 </picture>
                             </div>
                             <picture>
-                                <img src="images/main/stock/all_for_you.png" alt="all_for_you"/>
+                                <img src={all_for_you} alt="all_for_you"/>
                             </picture>
                             <span>top</span>
                             <div className="main_stock_card_raiting">
                                 <picture>
-                                    <img src="images/main/stock/raiting.svg" alt="raiting"/>
+                                    <img src={raiting} alt="raiting"/>
                                 </picture>
                             </div>
                             <div className="main_stock_card_med">
@@ -184,16 +217,16 @@ const Main = () => {
                             <div className="main_stock_card_top">
                                 <span>-19%</span>
                                 <picture>
-                                    <img src="images/main/stock/health.svg" alt="health"/>
+                                    <img src={health} alt="health"/>
                                 </picture>
                             </div>
                             <picture>
-                                <img src="images/main/stock/red_rose.png" alt="red_rose"/>
+                                <img src={red_rose} alt="red_rose"/>
                             </picture>
                             <span>top</span>
                             <div className="main_stock_card_raiting">
                                 <picture>
-                                    <img src="images/main/stock/raiting.svg" alt="raiting"/>
+                                    <img src={raiting} alt="raiting"/>
                                 </picture>
                             </div>
                             <div className="main_stock_card_med">
@@ -210,16 +243,16 @@ const Main = () => {
                             <div className="main_stock_card_top">
                                 <span>-10%</span>
                                 <picture>
-                                    <img src="images/main/stock/health.svg" alt="health"/>
+                                    <img src={health} alt="health"/>
                                 </picture>
                             </div>
                             <picture>
-                                <img src="images/main/stock/pink_rose.png" alt="pink rose"/>
+                                <img src={pink_rose} alt="pink rose"/>
                             </picture>
                             <span>top</span>
                             <div className="main_stock_card_raiting">
                                 <picture>
-                                    <img src="images/main/stock/raiting.svg" alt="raiting"/>
+                                    <img src={raiting} alt="raiting"/>
                                 </picture>
                             </div>
                             <div className="main_stock_card_med">
@@ -236,16 +269,16 @@ const Main = () => {
                             <div className="main_stock_card_top">
                                 <span>-10%</span>
                                 <picture>
-                                    <img src="images/main/stock/health.svg" alt="health"/>
+                                    <img src={health} alt="health"/>
                                 </picture>
                             </div>
                             <picture>
-                                <img src="images/main/stock/beeng_love.png" alt="love"/>
+                                <img src={beeng_love} alt="love"/>
                             </picture>
                             <span>top</span>
                             <div className="main_stock_card_raiting">
                                 <picture>
-                                    <img src="images/main/stock/raiting.svg" alt="raiting"/>
+                                    <img src={raiting} alt="raiting"/>
                                 </picture>
                             </div>
                             <div className="main_stock_card_med">
@@ -262,16 +295,16 @@ const Main = () => {
                             <div className="main_stock_card_top">
                                 <span>-19%</span>
                                 <picture>
-                                    <img src="images/main/stock/health.svg" alt="health"/>
+                                    <img src={health} alt="health"/>
                                 </picture>
                             </div>
                             <picture>
-                                <img src="images/main/stock/all_for_you.png" alt="all_for_you"/>
+                                <img src={all_for_you} alt="all_for_you"/>
                             </picture>
                             <span>top</span>
                             <div className="main_stock_card_raiting">
                                 <picture>
-                                    <img src="images/main/stock/raiting.svg" alt="raiting"/>
+                                    <img src={raiting} alt="raiting"/>
                                 </picture>
                             </div>
                             <div className="main_stock_card_med">
@@ -291,10 +324,10 @@ const Main = () => {
                         <h2>Сезонные</h2>
                         <div className="main_sesonal_arrow">
                             <picture>
-                                <img src="images/main/stock/arrowL.svg" alt="arrow"/>
+                                <img src={arrowL} alt="arrow"/>
                             </picture>
                             <picture>
-                                <img src="images/main/stock/arrowR.svg" alt="arrow"/>
+                                <img src={arrowR} alt="arrow"/>
                             </picture>
                         </div>
                     </div>
@@ -302,16 +335,16 @@ const Main = () => {
                         <div className="main_sesonal_card">
                             <div className="main_sesonal_card_top">
                                 <picture>
-                                    <img src="images/main/stock/health.svg" alt="health"/>
+                                    <img src={health} alt="health"/>
                                 </picture>
                                 <picture>
-                                    <img src="images/main/sesonal/reverie.jpg" alt="reverie"/>
+                                    <img src={reverie} alt="reverie"/>
                                 </picture>
                             </div>
                             <span>top</span>
                             <div className="main_stock_card_raiting">
                                 <picture>
-                                    <img src="images/main/stock/raiting.svg" alt="raiting"/>
+                                    <img src={raiting} alt="raiting"/>
                                 </picture>
                             </div>
                             <div className="main_sesonal_card_price">
@@ -324,16 +357,16 @@ const Main = () => {
                         <div className="main_sesonal_card">
                             <div className="main_sesonal_card_top">
                                 <picture>
-                                    <img src="images/main/stock/health.svg" alt="health"/>
+                                    <img src={health} alt="health"/>
                                 </picture>
                                 <picture>
-                                    <img src="images/main/sesonal/sunny_mood.jpg" alt="sunny_mood"/>
+                                    <img src={sunny_mood} alt="sunny_mood"/>
                                 </picture>
                             </div>
                             <span>top</span>
                             <div className="main_stock_card_raiting">
                                 <picture>
-                                    <img src="images/main/stock/raiting.svg" alt="raiting"/>
+                                    <img src={raiting} alt="raiting"/>
                                 </picture>
                             </div>
                             <div className="main_sesonal_card_price">
@@ -346,16 +379,16 @@ const Main = () => {
                         <div className="main_sesonal_card">
                             <div className="main_sesonal_card_top">
                                 <picture>
-                                    <img src="images/main/stock/health.svg" alt="health"/>
+                                    <img src={health} alt="health"/>
                                 </picture>
                                 <picture>
-                                    <img src="images/main/sesonal/flower_bed.jpg" alt="sunny_mood"/>
+                                    <img src={flower_bed} alt="flower_bed"/>
                                 </picture>
                             </div>
                             <span>top</span>
                             <div className="main_sesonal_card_raiting">
                                 <picture>
-                                    <img src="images/main/stock/raiting.svg" alt="raiting"/>
+                                    <img src={raiting} alt="raiting"/>
                                 </picture>
                             </div>
                             <div className="main_sesonal_card_price">
@@ -368,16 +401,16 @@ const Main = () => {
                         <div className="main_sesonal_card">
                             <div className="main_sesonal_card_top">
                                 <picture>
-                                    <img src="images/main/stock/health.svg" alt="health"/>
+                                    <img src={health} alt="health"/>
                                 </picture>
                                 <picture>
-                                    <img src="images/main/sesonal/basket_thumbelina.jpg" alt="basket_thumbelina"/>
+                                    <img src={basket_thumbelina} alt="basket_thumbelina"/>
                                 </picture>
                             </div>
                             <span>top</span>
                             <div className="main_stock_card_raiting">
                                 <picture>
-                                    <img src="images/main/stock/raiting.svg" alt="raiting"/>
+                                    <img src={raiting} alt="raiting"/>
                                 </picture>
                             </div>
                             <div className="main_sesonal_card_price">
@@ -390,16 +423,16 @@ const Main = () => {
                         <div className="main_sesonal_card">
                             <div className="main_sesonal_card_top">
                                 <picture>
-                                    <img src="images/main/stock/health.svg" alt="health"/>
+                                    <img src={health} alt="health"/>
                                 </picture>
                                 <picture>
-                                    <img src="images/main/sesonal/reverie.jpg" alt="reverie"/>
+                                    <img src={reverie} alt="reverie"/>
                                 </picture>
                             </div>
                             <span>top</span>
                             <div className="main_stock_card_raiting">
                                 <picture>
-                                    <img src="images/main/stock/raiting.svg" alt="raiting"/>
+                                    <img src={raiting} alt="raiting"/>
                                 </picture>
                             </div>
                             <div className="main_sesonal_card_price">
@@ -412,16 +445,16 @@ const Main = () => {
                         <div className="main_sesonal_card">
                             <div className="main_sesonal_card_top">
                                 <picture>
-                                    <img src="images/main/stock/health.svg" alt="health"/>
+                                    <img src={health} alt="health"/>
                                 </picture>
                                 <picture>
-                                    <img src="images/main/sesonal/sunny_mood.jpg" alt="sunny_mood"/>
+                                    <img src={sunny_mood} alt="sunny_mood"/>
                                 </picture>
                             </div>
                             <span>top</span>
                             <div className="main_stock_card_raiting">
                                 <picture>
-                                    <img src="images/main/stock/raiting.svg" alt="raiting"/>
+                                    <img src={raiting} alt="raiting"/>
                                 </picture>
                             </div>
                             <div className="main_sesonal_card_price">
@@ -434,16 +467,16 @@ const Main = () => {
                         <div className="main_sesonal_card">
                             <div className="main_sesonal_card_top">
                                 <picture>
-                                    <img src="images/main/stock/health.svg" alt="health"/>
+                                    <img src={health} alt="health"/>
                                 </picture>
                                 <picture>
-                                    <img src="images/main/sesonal/flower_bed.jpg" alt="sunny_mood"/>
+                                    <img src={flower_bed} alt="sunny_mood"/>
                                 </picture>
                             </div>
                             <span>top</span>
                             <div className="main_sesonal_card_raiting">
                                 <picture>
-                                    <img src="images/main/stock/raiting.svg" alt="raiting"/>
+                                    <img src={raiting} alt="raiting"/>
                                 </picture>
                             </div>
                             <div className="main_sesonal_card_price">
@@ -456,16 +489,16 @@ const Main = () => {
                         <div className="main_sesonal_card">
                             <div className="main_sesonal_card_top">
                                 <picture>
-                                    <img src="images/main/stock/health.svg" alt="health"/>
+                                    <img src={health} alt="health"/>
                                 </picture>
                                 <picture>
-                                    <img src="images/main/sesonal/basket_thumbelina.jpg" alt="basket_thumbelina"/>
+                                    <img src={basket_thumbelina} alt="basket_thumbelina"/>
                                 </picture>
                             </div>
                             <span>top</span>
                             <div className="main_stock_card_raiting">
                                 <picture>
-                                    <img src="images/main/stock/raiting.svg" alt="raiting"/>
+                                    <img src={raiting} alt="raiting"/>
                                 </picture>
                                 <div className="main_sesonal_card_price">
                                     <h3>Корзина Дюймовочка</h3>
@@ -482,25 +515,25 @@ const Main = () => {
                         <h2>Подарки</h2>
                         <div className="main_gift_arrow">
                             <picture>
-                                <img src="images/main/stock/arrowL.svg" alt="arrow"/>
+                                <img src={arrowL} alt="arrow"/>
                             </picture>
                             <picture>
-                                <img src="images/main/stock/arrowR.svg" alt="arrow"/>
+                                <img src={arrowR} alt="arrow"/>
                             </picture>
                         </div>
                     </div>
                     <div className="main_gift_blocks">
                         <div className="main_gift_card">
                             <picture>
-                                <img src="images/main/stock/health.svg" alt="health"/>
+                                <img src={health} alt="health"/>
                             </picture>
                             <picture>
-                                <img src="images/main/gift/card/napoleon.jpg" alt="reverie"/>
+                                <img src={napoleon} alt="napoleon"/>
                             </picture>
                             <span>top</span>
                             <div className="main_gift_card_raiting">
                                 <picture>
-                                    <img src="images/main/stock/raiting.svg" alt="raiting"/>
+                                    <img src={raiting} alt="raiting"/>
                                 </picture>
                             </div>
                             <div className="main_gift_card_price">
@@ -512,15 +545,15 @@ const Main = () => {
                         </div>
                         <div className="main_gift_card">
                             <picture>
-                                <img src="images/main/stock/health.svg" alt="health"/>
+                                <img src={health} alt="health"/>
                             </picture>
                             <picture>
-                                <img src="images/main/gift/card/kievskiy.jpg" alt="sunny_mood"/>
+                                <img src={kievskiy} alt="kievskiy"/>
                             </picture>
                             <span>top</span>
                             <div className="main_gift_card_raiting">
                                 <picture>
-                                    <img src="images/main/stock/raiting.svg" alt="raiting"/>
+                                    <img src={raiting} alt="raiting"/>
                                 </picture>
                             </div>
                             <div className="main_gift_card_price">
@@ -532,15 +565,15 @@ const Main = () => {
                         </div>
                         <div className="main_gift_card">
                             <picture>
-                                <img src="images/main/stock/health.svg" alt="health"/>
+                                <img src={health} alt="health"/>
                             </picture>
                             <picture>
-                            <img src="images/main/gift/card/levantiner.jpg" alt="sunny_mood"/>
+                                <img src={levantiner} alt="levantiner"/>
                             </picture>
                             <span>top</span>
                             <div className="main_gift_card_raiting">
                                 <picture>
-                                    <img src="images/main/stock/raiting.svg" alt="raiting"/>
+                                    <img src={raiting} alt="raiting"/>
                                 </picture>
                             </div>
                             <div className="main_gift_card_price">
@@ -552,15 +585,15 @@ const Main = () => {
                         </div>
                         <div className="main_gift_card">
                             <picture>
-                                <img src="images/main/stock/health.svg" alt="health"/>
+                                <img src={health} alt="health"/>
                             </picture>
                             <picture>
-                                <img src="images/main/gift/card/born_day.jpg" alt="basket_thumbelina"/>
+                                <img src={born_day} alt="born_day"/>
                             </picture>
                             <span>top</span>
                             <div className="main_gift_card_raiting">
                                 <picture>
-                                    <img src="images/main/stock/raiting.svg" alt="raiting"/>
+                                    <img src={raiting} alt="raiting"/>
                                 </picture>
                             </div>
                             <div className="main_gift_card_price">
@@ -572,15 +605,15 @@ const Main = () => {
                         </div>
                         <div className="main_gift_card">
                             <picture>
-                                <img src="images/main/stock/health.svg" alt="health"/>
+                                <img src={health} alt="health"/>
                             </picture>
                             <picture>
-                                <img src="images/main/gift/card/napoleon.jpg" alt="reverie"/>
+                                <img src={napoleon} alt="reverie"/>
                             </picture>
                             <span>top</span>
                             <div className="main_stock_card_raiting">
                                 <picture>
-                                    <img src="images/main/stock/raiting.svg" alt="raiting"/>
+                                    <img src={raiting} alt="raiting"/>
                                 </picture>
                             </div>
                             <div className="main_gift_card_price">
@@ -592,15 +625,15 @@ const Main = () => {
                         </div>
                         <div className="main_gift_card">
                             <picture>
-                                <img src="images/main/stock/health.svg" alt="health"/>
+                                <img src={health} alt="health"/>
                             </picture>
                             <picture>
-                                <img src="images/main/gift/card/kievskiy.jpg" alt="sunny_mood"/>
+                                <img src={kievskiy} alt="kievskiy"/>
                             </picture>
                             <span>top</span>
                             <div className="main_gift_card_raiting">
                                 <picture>
-                                    <img src="images/main/stock/raiting.svg" alt="raiting"/>
+                                    <img src={raiting} alt="raiting"/>
                                 </picture>
                             </div>
                             <div className="main_gift_card_price">
@@ -612,15 +645,15 @@ const Main = () => {
                         </div>
                         <div className="main_gift_card">
                             <picture>
-                                <img src="images/main/stock/health.svg" alt="health"/>
+                                <img src={health} alt="health"/>
                             </picture>
                             <picture>
-                                <img src="images/main/gift/card/levantiner.jpg" alt="sunny_mood"/>
+                                <img src={levantiner} alt="levantiner"/>
                             </picture>
                             <span>top</span>
                             <div className="main_gift_card_raiting">
                                 <picture>
-                                    <img src="images/main/stock/raiting.svg" alt="raiting"/>
+                                    <img src={raiting} alt="raiting"/>
                                 </picture>
                             </div>
                             <div className="main_gift_card_price">
@@ -632,15 +665,15 @@ const Main = () => {
                         </div>
                         <div className="main_gift_card">
                             <picture>
-                                <img src="images/main/stock/health.svg" alt="health"/>
+                                <img src={health} alt="health"/>
                             </picture>
                             <picture>
-                                <img src="images/main/gift/card/born_day.jpg" alt="basket_thumbelina"/>
+                                <img src={born_day} alt="born_day"/>
                             </picture>
                             <span>top</span>
                             <div className="main_gift_card_raiting">
                                 <picture>
-                                    <img src="images/main/stock/raiting.svg" alt="raiting"/>
+                                    <img src={raiting} alt="raiting"/>
                                 </picture>
                             </div>
                             <div className="main_gift_card_price">
@@ -659,7 +692,7 @@ const Main = () => {
                             <a href="#/">
                                 <span>Все новости</span>
                                 <picture>
-                                    <img src="images/main/forum/forum_arrow.svg" alt="arrow"/>
+                                    <img src={arrowF} alt="arrow"/>
                                 </picture>
                             </a>
                         </div>
@@ -667,7 +700,7 @@ const Main = () => {
                     <div className="main_forum_blocks">
                         <a href="#/" className="main_forum_blocks_card">
                             <picture>
-                                <img src="images/main/forum/forum1.jpg" alt="flower"/>
+                                <img src={forum1} alt="flower"/>
                             </picture>
                             <h2>Какие цветы под запретом: что нельзя дарить</h2>
                             <p>Осведомленности в сфере новых трендов цветочного
@@ -676,7 +709,7 @@ const Main = () => {
                         </a>
                         <a href="#/" className="main_forum_blocks_card">
                             <picture>
-                                <img src="images/main/forum/forum2.jpg" alt="flower"/>
+                                <img src={forum2} alt="flower"/>
                             </picture>
                             <h2>Как сохранить букет свежим: советы и рекомендации</h2>
                             <p>Осведомленности в сфере новых трендов цветочного
@@ -685,7 +718,7 @@ const Main = () => {
                         </a>
                         <a href="#/" className="main_forum_blocks_card">
                             <picture>
-                                <img src="images/main/forum/forum3.jpg" alt="flower"/>
+                                <img src={forum3} alt="flower"/>
                             </picture>
                             <h2>Цветочный этикет - как правильно дарить цветы</h2>
                             <p>Осведомленности в сфере новых трендов цветочного
@@ -703,21 +736,21 @@ const Main = () => {
                     <div className="main_map_contact_content">
 
                         <picture>
-                            <img src="images/main/map/map_logo.svg" alt="logo"/>
+                            <img src={map_logo} alt="logo"/>
                         </picture>
                         <div>
                             <div>
                                 <picture>
-                                    <img src="images/main/map/phone.svg" alt="phone"/>
-                                        <span>Телефон:</span>
+                                    <img src={phoneM} alt="phone"/>
                                 </picture>
+                                <span>Телефон:</span>
                             </div>
                             <a href="tel:++380638293030">+38 (063) 829 30 30</a>
                             <a href="tel:++380678293030">+38 (067) 829 30 30</a>
                         </div>
                         <div>
                             <div>
-                                <img src="images/main/map/skype.svg" alt="skype"/>
+                                <img src={skypeM} alt="skype"/>
                                     <span>Skype</span>
                             </div>
                             <a href="http://Flowers-Ukraine">Flowers-Ukraine</a>
@@ -725,16 +758,16 @@ const Main = () => {
                         <div>
                             <div>
                                 <picture>
-                                    <img src="images/main/map/mail.svg" alt="mail"/>
+                                    <img src={mallM} alt="mail"/>
                                 </picture>
                                 <span>Почта</span>
                             </div>
                             <a href="mailto:flowers.ukraine2014@gmail.com">flowers.ukraine2014@gmail.com</a>
                         </div>
                         <div>
-                            <a href="https://www.instagram.com/"><picture><img src="images/main/forum/inst.svg" alt="inst"/></picture></a>
-                            <a href="https://www.skype.com/"><picture><img src="images/main/forum/skype.svg" alt="skype"/></picture></a>
-                            <a href="https://www.facebook.com/"><picture><img src="images/main/forum/facebook.svg" alt="facebook"/></picture></a>
+                            <a href="https://www.instagram.com/"><picture><img src={instM} alt="inst"/></picture></a>
+                            <a href="https://www.skype.com/"><picture><img src={skypeC} alt="skype"/></picture></a>
+                            <a href="https://www.facebook.com/"><picture><img src={facebookM} alt="facebook"/></picture></a>
                         </div>
 
                     </div>

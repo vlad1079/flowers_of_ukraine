@@ -3,12 +3,14 @@ import Header from './components/header/Header';
 import './Reset.css';
 import './App.css';
 import Main from './components/main/Main';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div className ="App">
       <Header/>
       <Main/>
+      <Footer/>
     </div>
   );
 }
