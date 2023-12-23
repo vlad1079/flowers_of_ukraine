@@ -1,6 +1,7 @@
 {
   "name": "flowers_of_ukraine",
   "version": "0.1.0",
+  "homepage": "https://vlad1079.github.io/flowers_of_ukraine/",
   "private": true,
   "dependencies": {
     "@babel/compat-data": "^7.8.0",
@@ -20,8 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "homepage": "https://vlad1079.github.io/flowers_of_ukraine/"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
